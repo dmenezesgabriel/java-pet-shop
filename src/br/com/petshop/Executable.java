@@ -1,17 +1,17 @@
 package br.com.petshop;
-import br.com.petshop.Animal;
+import br.com.petshop.*;
 
 public class Executable {
 
-    static Animal cachorroA = new Animal();
+    static Animal dog = new Animal();
 
     public static void main(String[] args) {
-        cachorroA.name = "Bella";
-        cachorroA.species = "Cahorro";
-        cachorroA.race = "Beagle";
-        cachorroA.coloring = "Marrom e Branco";
-        cachorroA.age = 0.5;
+        dog.name = "Bella";
+        dog.species = "Cahorro";
+        dog.race = "Beagle";
+        dog.coloring = "Marrom e Branco";
+        dog.age = 0.5;
 
-        cachorroA.scheduleProcedure("02/09/2021", "Cortar as unhas");
+        dog.scheduleProcedure("02/09/2021", "Cortar as unhas");
     }
 }
