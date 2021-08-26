@@ -2,11 +2,11 @@ package com.petshop;
 
 public class Animal {
     // Properties
-    String name;
-    String species;
-    String race;
-    String coloring;
-    double age;
+    private String name;
+    private String species;
+    private String race;
+    private String coloring;
+    private double age;
 
     // Constructors or initialization methods
     public Animal(String name, String species, String race, String coloring, double age) {
