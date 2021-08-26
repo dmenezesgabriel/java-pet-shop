@@ -1,4 +1,4 @@
-package br.com.petshop;
+package com.petshop;
 
 public class Animal {
     // Properties

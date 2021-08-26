@@ -1,5 +1,5 @@
-package br.com.petshop;
-import br.com.petshop.*;
+package com.petshop;
+import com.petshop.*;
 
 public class Executable {
 
