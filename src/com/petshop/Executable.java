@@ -1,5 +1,5 @@
 package com.petshop;
-import com.petshop.*;
+import com.petshop.Animal;
 
 public class Executable {
 
@@ -12,6 +12,7 @@ public class Executable {
         dog.coloring = "Marrom e Branco";
         dog.age = 0.5;
 
-        dog.scheduleProcedure("02/09/2021", "Cortar as unhas");
+        dog.scheduleProcedure("02/09/21", "Cortar as unhas");
+        dog.finishStay("03/09/21", "Acrescentar tosa");
     }
 }
