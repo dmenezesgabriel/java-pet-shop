@@ -6,13 +6,13 @@ public class Animal {
     String species;
     String race;
     String coloring;
-    int age;
+    double age;
     // Methods
     void scheduleProcedure(String date, String observation) {
-        system.out.println(String.format("Pet %s agendou procedimento em %s com a observação %s.", name, date , observation))
+        System.out.println(String.format("Pet %s agendou procedimento em %s com a observação %s.", name, date , observation));
     }
 
     void finishStay(String date, String observation) {
-        system.out.println(String.format("Pet %s agendou procedimento em %s com a observação %s.", name, date , observation))
+        System.out.println(String.format("Pet %s agendou procedimento em %s com a observação %s.", name, date , observation));
     }
 }
