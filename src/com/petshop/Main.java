@@ -1,7 +1,7 @@
 package com.petshop;
 import com.petshop.Animal;
 
-public class Executable {
+public class Main {
 
     static Animal dog = new Animal();
 

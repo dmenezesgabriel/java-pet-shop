@@ -13,5 +13,5 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 ```
 javac -d bin src/com/petshop/*.java
-java -classpath bin com.petshop.Executable
+java -classpath bin com.petshop.Main
 ```
